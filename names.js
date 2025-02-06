@@ -7,6 +7,6 @@ function createName(firstName, lastName) {
     firstName,
     lastName
   }
-}
+};
 
 module.exports = createName;
