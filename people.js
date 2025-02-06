@@ -11,7 +11,7 @@ function createPerson() {
     const name = createName('Alex', 'Losciale');
     const hobbies = createHobbies('leggere', 'palestra', 'giochi');
     return {
-        name,
+        fullname: name,
         hobbies
     }
 };
